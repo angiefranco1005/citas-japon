@@ -3,7 +3,7 @@ name: Vigilar citas Embajada Japón
 on:
   schedule:
     # Corre cada 15 minutos, 24/7
-    - cron: "*/15 * * * *"
+    - cron: "*/7 * * * *"
   workflow_dispatch: {}   # permite correrlo manualmente desde GitHub también
 
 jobs:
